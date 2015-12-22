@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB4B2001C2920730046E257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B1FF1C2920730046E257 /* AppDelegate.swift */; };
+		3DB4B2021C2920730046E257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B2011C2920730046E257 /* ViewController.swift */; };
+		3DB4B2051C2920730046E257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4B2031C2920730046E257 /* Main.storyboard */; };
+		3DB4B2071C2920730046E257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4B2061C2920730046E257 /* Assets.xcassets */; };
+		3DB4B20A1C2920730046E257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4B2081C2920730046E257 /* LaunchScreen.storyboard */; };
+		3DB4B2151C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B2141C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.swift */; };
+		3DB4B2201C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4B21F1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB4B2111C2920730046E257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB4B1F41C2920730046E257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB4B1FB1C2920730046E257;
+			remoteInfo = MegamanBattleNetworkArcadeiOS;
+		};
+		3DB4B21C1C2920730046E257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB4B1F41C2920730046E257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB4B1FB1C2920730046E257;
+			remoteInfo = MegamanBattleNetworkArcadeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB4B1FC1C2920730046E257 /* MegamanBattleNetworkArcadeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegamanBattleNetworkArcadeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB4B1FF1C2920730046E257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB4B2011C2920730046E257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB4B2041C2920730046E257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB4B2061C2920730046E257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB4B2091C2920730046E257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB4B20B1C2920730046E257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB4B2101C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegamanBattleNetworkArcadeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB4B2141C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegamanBattleNetworkArcadeiOSTests.swift; sourceTree = "<group>"; };
+		3DB4B2161C2920730046E257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB4B21B1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegamanBattleNetworkArcadeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB4B21F1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegamanBattleNetworkArcadeiOSUITests.swift; sourceTree = "<group>"; };
+		3DB4B2211C2920730046E257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB4B1F91C2920730046E257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B20D1C2920730046E257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B2181C2920730046E257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB4B1F31C2920730046E257 = {
+			isa = PBXGroup;
+			children = (
+				3DB4B1FE1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */,
+				3DB4B2131C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests */,
+				3DB4B21E1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests */,
+				3DB4B1FD1C2920730046E257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB4B1FD1C2920730046E257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4B1FC1C2920730046E257 /* MegamanBattleNetworkArcadeiOS.app */,
+				3DB4B2101C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.xctest */,
+				3DB4B21B1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB4B1FE1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4B1FF1C2920730046E257 /* AppDelegate.swift */,
+				3DB4B2011C2920730046E257 /* ViewController.swift */,
+				3DB4B2031C2920730046E257 /* Main.storyboard */,
+				3DB4B2061C2920730046E257 /* Assets.xcassets */,
+				3DB4B2081C2920730046E257 /* LaunchScreen.storyboard */,
+				3DB4B20B1C2920730046E257 /* Info.plist */,
+			);
+			path = MegamanBattleNetworkArcadeiOS;
+			sourceTree = "<group>";
+		};
+		3DB4B2131C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4B2141C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.swift */,
+				3DB4B2161C2920730046E257 /* Info.plist */,
+			);
+			path = MegamanBattleNetworkArcadeiOSTests;
+			sourceTree = "<group>";
+		};
+		3DB4B21E1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4B21F1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.swift */,
+				3DB4B2211C2920730046E257 /* Info.plist */,
+			);
+			path = MegamanBattleNetworkArcadeiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB4B1FB1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB4B2241C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOS" */;
+			buildPhases = (
+				3DB4B1F81C2920730046E257 /* Sources */,
+				3DB4B1F91C2920730046E257 /* Frameworks */,
+				3DB4B1FA1C2920730046E257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MegamanBattleNetworkArcadeiOS;
+			productName = MegamanBattleNetworkArcadeiOS;
+			productReference = 3DB4B1FC1C2920730046E257 /* MegamanBattleNetworkArcadeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB4B20F1C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB4B2271C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOSTests" */;
+			buildPhases = (
+				3DB4B20C1C2920730046E257 /* Sources */,
+				3DB4B20D1C2920730046E257 /* Frameworks */,
+				3DB4B20E1C2920730046E257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB4B2121C2920730046E257 /* PBXTargetDependency */,
+			);
+			name = MegamanBattleNetworkArcadeiOSTests;
+			productName = MegamanBattleNetworkArcadeiOSTests;
+			productReference = 3DB4B2101C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DB4B21A1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB4B22A1C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOSUITests" */;
+			buildPhases = (
+				3DB4B2171C2920730046E257 /* Sources */,
+				3DB4B2181C2920730046E257 /* Frameworks */,
+				3DB4B2191C2920730046E257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB4B21D1C2920730046E257 /* PBXTargetDependency */,
+			);
+			name = MegamanBattleNetworkArcadeiOSUITests;
+			productName = MegamanBattleNetworkArcadeiOSUITests;
+			productReference = 3DB4B21B1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB4B1F41C2920730046E257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KevinKloud;
+				TargetAttributes = {
+					3DB4B1FB1C2920730046E257 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3DB4B20F1C2920730046E257 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DB4B1FB1C2920730046E257;
+					};
+					3DB4B21A1C2920730046E257 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3DB4B1FB1C2920730046E257;
+					};
+				};
+			};
+			buildConfigurationList = 3DB4B1F71C2920730046E257 /* Build configuration list for PBXProject "MegamanBattleNetworkArcadeiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB4B1F31C2920730046E257;
+			productRefGroup = 3DB4B1FD1C2920730046E257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB4B1FB1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */,
+				3DB4B20F1C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests */,
+				3DB4B21A1C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB4B1FA1C2920730046E257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB4B20A1C2920730046E257 /* LaunchScreen.storyboard in Resources */,
+				3DB4B2071C2920730046E257 /* Assets.xcassets in Resources */,
+				3DB4B2051C2920730046E257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B20E1C2920730046E257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B2191C2920730046E257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB4B1F81C2920730046E257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB4B2021C2920730046E257 /* ViewController.swift in Sources */,
+				3DB4B2001C2920730046E257 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B20C1C2920730046E257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB4B2151C2920730046E257 /* MegamanBattleNetworkArcadeiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB4B2171C2920730046E257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB4B2201C2920730046E257 /* MegamanBattleNetworkArcadeiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB4B2121C2920730046E257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB4B1FB1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */;
+			targetProxy = 3DB4B2111C2920730046E257 /* PBXContainerItemProxy */;
+		};
+		3DB4B21D1C2920730046E257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB4B1FB1C2920730046E257 /* MegamanBattleNetworkArcadeiOS */;
+			targetProxy = 3DB4B21C1C2920730046E257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB4B2031C2920730046E257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB4B2041C2920730046E257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB4B2081C2920730046E257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB4B2091C2920730046E257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB4B2221C2920730046E257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB4B2231C2920730046E257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB4B2251C2920730046E257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DB4B2261C2920730046E257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DB4B2281C2920730046E257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegamanBattleNetworkArcadeiOS.app/MegamanBattleNetworkArcadeiOS";
+			};
+			name = Debug;
+		};
+		3DB4B2291C2920730046E257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MegamanBattleNetworkArcadeiOS.app/MegamanBattleNetworkArcadeiOS";
+			};
+			name = Release;
+		};
+		3DB4B22B1C2920730046E257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MegamanBattleNetworkArcadeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3DB4B22C1C2920730046E257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MegamanBattleNetworkArcadeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KevinKloud.MegamanBattleNetworkArcadeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MegamanBattleNetworkArcadeiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB4B1F71C2920730046E257 /* Build configuration list for PBXProject "MegamanBattleNetworkArcadeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4B2221C2920730046E257 /* Debug */,
+				3DB4B2231C2920730046E257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB4B2241C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4B2251C2920730046E257 /* Debug */,
+				3DB4B2261C2920730046E257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DB4B2271C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4B2281C2920730046E257 /* Debug */,
+				3DB4B2291C2920730046E257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DB4B22A1C2920730046E257 /* Build configuration list for PBXNativeTarget "MegamanBattleNetworkArcadeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4B22B1C2920730046E257 /* Debug */,
+				3DB4B22C1C2920730046E257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB4B1F41C2920730046E257 /* Project object */;
+}
